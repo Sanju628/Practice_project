@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+
+.container{
+    background-color: whitesmoke;
+    padding: 20px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .3);
+    border-radius: 15px;
+    width: 75%;
+    text-align: center;
+}
+
+.joke{
+    font-size: 20px;
+    margin: 40px;
+}
+
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: wheat;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .3);
+    transition: all 300ms ease;
+}
