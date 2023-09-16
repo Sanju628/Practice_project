@@ -25,7 +25,6 @@ btn.addEventListener("click", () => {
         <p>We will use this feedback to improve our customer Support</p>
         `
     }
-
 });
 
 function removeActive() {
